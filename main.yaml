@@ -71,3 +71,7 @@ Outputs:
   URLBase:
     Description: "Base URL of the API."
     Value: !Sub "https://${RestAPI}.execute-api.${AWS::Region}.amazonaws.com/prod/"
+    Outputs:
+  Dummyoutput:
+    Description: "thisisadummyoutput"
+    Value: "dummyoutput"
