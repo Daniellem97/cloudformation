@@ -69,5 +69,5 @@ Resources:
       StageName: prod
 Outputs:
   Dummyoutput:
-    Description: "thisisadummyoutput"
+    Description: "thisisadummyoutput2"
     Value: "dummyoutput"
