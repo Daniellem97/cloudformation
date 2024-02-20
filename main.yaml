@@ -23,7 +23,7 @@ Resources:
     Properties:
       TemplateURL: functionStack.yaml
       Parameters:
-        Name: "function2"
+        Name: "function1"
   Function2StackPermissionProd:
     Type: AWS::Lambda::Permission
     Properties:
