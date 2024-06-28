@@ -1,3 +1,7 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Description: Placeholder main.yaml to ensure valid stack
-Resources: {}
+Resources:
+  PlaceholderBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: placeholder-bucket-testinguniqueid
